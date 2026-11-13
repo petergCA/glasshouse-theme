@@ -15,11 +15,12 @@ Glasshouse:
 
   # Page
   lovelace-background: >-
-    radial-gradient(1200px 700px at 12% -10%, rgba(88, 166, 255, 0.16), transparent 60%),
-    radial-gradient(900px 600px at 95% 5%, rgba(196, 140, 255, 0.12), transparent 60%),
-    radial-gradient(1000px 800px at 50% 120%, rgba(77, 214, 232, 0.08), transparent 60%),
+    radial-gradient(1200px 700px at 12% -10%, rgba(88, 166, 255, 0.16), transparent 60%) fixed,
+    radial-gradient(900px 600px at 95% 5%, rgba(196, 140, 255, 0.12), transparent 60%) fixed,
+    radial-gradient(1000px 800px at 50% 120%, rgba(77, 214, 232, 0.08), transparent 60%) fixed,
     linear-gradient(180deg, #070b13 0%, #0a1020 55%, #070b13 100%) fixed
   primary-background-color: "#070b13"
+  lovelace-background-color: "#070b13"
   secondary-background-color: "rgba(255, 255, 255, 0.04)"
   app-header-background-color: "rgba(7, 11, 19, 0.72)"
   app-header-text-color: "#e9eef6"
