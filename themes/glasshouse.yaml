@@ -55,6 +55,7 @@ Glasshouse:
   state-fan-active-color: "#4dd6e8"
   state-cover-active-color: "#a3a8ff"
   state-switch-active-color: "#7ee08a"
+  state-media_player-active-color: "#c48cff"
   state-input_boolean-active-color: "#7ee08a"
   state-climate-heat-color: "#ff7a59"
   state-climate-cool-color: "#58a6ff"
