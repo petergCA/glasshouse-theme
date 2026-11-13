@@ -1,0 +1,88 @@
+# Glasshouse — refined dark glass for Home Assistant.
+# Pairs with the Glasshouse cards (room, hero, stat), but styles native cards too.
+Glasshouse:
+  # Glasshouse card tokens (read by every Glasshouse card)
+  glasshouse-font: '-apple-system, "SF Pro Text", Inter, Roboto, system-ui, sans-serif'
+  glasshouse-surface: "rgba(255, 255, 255, 0.045)"
+  glasshouse-surface-2: "rgba(255, 255, 255, 0.075)"
+  glasshouse-border: "rgba(255, 255, 255, 0.09)"
+  glasshouse-blur: "18px"
+  glasshouse-radius: "22px"
+  glasshouse-radius-sm: "14px"
+  glasshouse-text: "#e9eef6"
+  glasshouse-text-2: "#93a0b5"
+  glasshouse-text-3: "#5d697d"
+
+  # Page
+  lovelace-background: >-
+    radial-gradient(1200px 700px at 12% -10%, rgba(88, 166, 255, 0.16), transparent 60%),
+    radial-gradient(900px 600px at 95% 5%, rgba(196, 140, 255, 0.12), transparent 60%),
+    radial-gradient(1000px 800px at 50% 120%, rgba(77, 214, 232, 0.08), transparent 60%),
+    linear-gradient(180deg, #070b13 0%, #0a1020 55%, #070b13 100%) fixed
+  primary-background-color: "#070b13"
+  secondary-background-color: "rgba(255, 255, 255, 0.04)"
+  app-header-background-color: "rgba(7, 11, 19, 0.72)"
+  app-header-text-color: "#e9eef6"
+  app-header-selection-bar-color: "#58a6ff"
+  app-header-edit-background-color: "#111827"
+
+  # Text & accents
+  primary-text-color: "#e9eef6"
+  secondary-text-color: "#93a0b5"
+  disabled-text-color: "#5d697d"
+  text-primary-color: "#e9eef6"
+  primary-color: "#58a6ff"
+  accent-color: "#ffb547"
+  light-primary-color: "#2b3a55"
+  divider-color: "rgba(255, 255, 255, 0.08)"
+
+  # Cards (native cards follow the same glass)
+  ha-card-background: "rgba(255, 255, 255, 0.045)"
+  card-background-color: "#0e1523"
+  ha-card-border-radius: "22px"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(255, 255, 255, 0.09)"
+  ha-card-box-shadow: "0 10px 30px -18px rgba(0, 0, 0, 0.8)"
+  ha-dialog-surface-background: "#0e1523"
+  mdc-theme-surface: "#0e1523"
+  dialog-backdrop-filter: "blur(10px)"
+
+  # State colours
+  state-icon-color: "#93a0b5"
+  state-active-color: "#ffb547"
+  state-light-active-color: "#ffb547"
+  state-fan-active-color: "#4dd6e8"
+  state-cover-active-color: "#a3a8ff"
+  state-switch-active-color: "#7ee08a"
+  state-input_boolean-active-color: "#7ee08a"
+  state-climate-heat-color: "#ff7a59"
+  state-climate-cool-color: "#58a6ff"
+  state-lock-locked-color: "#3fb950"
+  state-lock-unlocked-color: "#e3b341"
+  state-alarm_control_panel-armed_away-color: "#3fb950"
+  state-alarm_control_panel-armed_home-color: "#3fb950"
+  state-alarm_control_panel-armed_night-color: "#3fb950"
+  state-alarm_control_panel-triggered-color: "#ff5c5c"
+  success-color: "#3fb950"
+  warning-color: "#e3b341"
+  error-color: "#ff5c5c"
+  info-color: "#58a6ff"
+
+  # Inputs / sliders / switches
+  switch-checked-color: "#58a6ff"
+  switch-checked-button-color: "#e9eef6"
+  switch-checked-track-color: "#58a6ff"
+  paper-slider-knob-color: "#58a6ff"
+  paper-slider-active-color: "#58a6ff"
+  input-fill-color: "rgba(255, 255, 255, 0.05)"
+  code-editor-background-color: "#0b1220"
+
+  # Sidebar
+  sidebar-background-color: "#070b13"
+  sidebar-text-color: "#93a0b5"
+  sidebar-selected-text-color: "#e9eef6"
+  sidebar-selected-icon-color: "#58a6ff"
+  sidebar-icon-color: "#5d697d"
+
+  modes:
+    dark: {}
