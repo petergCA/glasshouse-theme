@@ -11,7 +11,7 @@ Glasshouse:
   glasshouse-radius-sm: "14px"
   glasshouse-text: "#e9eef6"
   glasshouse-text-2: "#93a0b5"
-  glasshouse-text-3: "#5d697d"
+  glasshouse-text-3: "#93a0b5"  # was #5d697d; raised to text-2 for readability (Peter, 11/14)
 
   # Page
   lovelace-background: >-
