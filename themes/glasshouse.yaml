@@ -61,6 +61,11 @@ Glasshouse:
   state-climate-cool-color: "#58a6ff"
   state-lock-locked-color: "#3fb950"
   state-lock-unlocked-color: "#e3b341"
+  # garage doors read like locks: closed green, open (or moving) yellow
+  state-cover-garage-closed-color: "#3fb950"
+  state-cover-garage-open-color: "#e3b341"
+  state-cover-garage-opening-color: "#e3b341"
+  state-cover-garage-closing-color: "#e3b341"
   state-alarm_control_panel-armed_away-color: "#3fb950"
   state-alarm_control_panel-armed_home-color: "#3fb950"
   state-alarm_control_panel-armed_night-color: "#3fb950"
