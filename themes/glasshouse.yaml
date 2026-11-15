@@ -10,8 +10,8 @@ Glasshouse:
   glasshouse-radius: "22px"
   glasshouse-radius-sm: "14px"
   glasshouse-text: "#e9eef6"
-  glasshouse-text-2: "#93a0b5"
-  glasshouse-text-3: "#93a0b5"  # was #5d697d; raised to text-2 for readability (Peter, 11/14)
+  glasshouse-text-2: "#aeb9cb"  # was #93a0b5; brighter secondary text (Peter, 11/14)
+  glasshouse-text-3: "#aeb9cb"  # was #5d697d; same as text-2 for readability (Peter, 11/14)
 
   # Page
   lovelace-background: >-
@@ -29,7 +29,7 @@ Glasshouse:
 
   # Text & accents
   primary-text-color: "#e9eef6"
-  secondary-text-color: "#93a0b5"
+  secondary-text-color: "#aeb9cb"
   disabled-text-color: "#5d697d"
   text-primary-color: "#e9eef6"
   primary-color: "#58a6ff"
